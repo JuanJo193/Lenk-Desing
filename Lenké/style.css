@@ -1,0 +1,55 @@
+
+.first {
+    background : transparent;
+    text-align: center;
+}
+div [ class|="col"]{
+    border: 1px solid rgb(22, 94, 248);
+}
+.map-container-4{
+    overflow:hidden;
+    padding-bottom: 100vh;
+    position:relative;
+    height:auto;
+    }
+    .map-container-4 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    li {
+        list-style: none;
+      }
+
+      div [ id|="dropleftdrop"]{
+        margin-right: 45px;
+        margin-bottom: 45px;
+        border: solid rgb(22, 94, 248);
+        width: 250px !important;
+        height: 200px !important;
+    }
+
+    input[id="radiolenk1"]{   
+        float: left;
+     }
+     input[id="radiolenk2"]{   
+        float: left;
+     }
+     input[id="radiolenk4"]{   
+        float: left;
+     }
+
+     label[class="form-check-label"]{
+
+        float: left;
+        margin-left: 10%;
+
+     }
+     div [ id|="fecha1"]{
+
+        border: solid rgb(22, 94, 248);
+        border-style: solid;
+
+    }
